@@ -119,7 +119,7 @@ while opt != 6
       when 'd'
         opt2 = 'd'
       else
-        'Debe ingresar una opcion valida'
+        puts 'Debe ingresar una opcion valida'
       end
     end
   when 2
@@ -131,8 +131,8 @@ while opt != 6
   when 5
     registrar_producto(file)
   when 6
-    'Programa terminado'
+    puts 'Programa terminado'
   else
-    'Debe Ingresar una opcion valida'
+    puts 'Debe Ingresar una opcion valida'
   end
 end
